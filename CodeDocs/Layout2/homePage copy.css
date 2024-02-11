@@ -1,0 +1,124 @@
+.homeLayout{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background-size: cover;
+    align-items: center;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.gridImg{
+    display: flex;
+    width: 210px;
+    height: 150px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+    border: rgb(0, 0, 0) solid 2px;
+}
+
+.imageContainer{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    Right: 100px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 69px;
+    transform: rotate(-20deg);
+}
+
+.orangeBox{
+    background-color: orange;
+    height: 350px;
+    width: 7px;
+    margin-left: 130px;
+    margin-top: 55px;
+    transform: rotate(20deg);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin-top: 115px;
+    margin-left: 25px;
+    margin-right: 100px;
+    gap: 10px;
+    transform: rotate(20deg);
+}
+
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.h2{
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h3{
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-shadow: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 100px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.donateBtn,
+.galaBtn{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border: white solid 2px;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.donateBtn:hover,
+.galaBtn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
